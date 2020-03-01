@@ -1,0 +1,89 @@
+
+body{
+	background-color: #d3d6e3
+}
+
+h1{
+	font-family: 'anironregular';
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.navDiv ul{
+	padding: 0px;
+}
+
+.navDiv{
+	background-color: #595a5e;
+}
+
+.navDiv button{
+	background-color: #595a5e;
+	border: none;
+	text-align: center;
+	font-size: 18px;
+	width: 25%;
+	color: #d3d6e3;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.active{
+	background-color: #32a852;
+}
+
+
+nav a.active{}
+
+.slideDeckImage{
+	display:none;
+	margin:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slideshowBox{
+	width:80%;
+	margin: auto;
+}
+
+.hotelListContainer{
+	text-align:center;
+	background-color: #32a852;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+.hotelImage{
+	float:left;
+	width:300px;
+	height:200px;
+	padding:10px;
+}
+
+.hotelListRow{
+	background-color: #7be097;
+	margin:5px;
+}
+
+.hotelListRow img{
+	float:left;
+	height:200px;
+	width: 300px;
+}
+
+.hotelDescription{
+	overflow: scroll;
+	text-align: left;
+	height:220px;
+}
+
+
+@font-face{
+    font-family: 'anironregular';
+	src: url('fonts/anirm___.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
